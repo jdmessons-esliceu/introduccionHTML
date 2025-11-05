@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="web_senzilla_1.html">Web Simple</a>
+                </li>
+                <li>
+                    <a href="/web_senzilla_2.html">Web simple 2</a>
+                </li>
+                <li>
+                    <a href="/horari.html">Horari</a>
+                </li>
+                <li>
+                    <a href="/productes.html">Productes</a>
+                </li>
+                <li>
+                    <a href="/registre.html">Registre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Exercici, formulari registre</h1>
+    <form action="registre.html" method="get">
+        <div>
+            <label for="Nom">Nom:</label>
+            <input type="text" id="Nom" name="Nom" required placeholder="Introdueix el teu nom">
+            <label for="Llinatges">Llinatges</label>
+            <input type="text" id="Llitages" name="Llinatges" required placeholder="Introdueix els teus llinatges">
+        </div>
+        <div>
+            <label for="genere">Gènere:</label>
+            <input type="radio" id="home" name="genere" value="home">
+            <label for="home">Home</label>
+            <input type="radio" id="dona" name="genere" value="dona">
+            <label for="dona">Dona</label>
+            <input type="radio" id="altre" name="genere" value="altre">
+            <label for="Altre">Altre</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="contrasenya">Contrasenya</label>
+            <input type="password" name="contrasenya" id="contrasenya" minlength="5" maxlength="10" required>
+        </div>
+        <div>
+            <label for="data de naixament">Data de naixament:</label>
+            <input type="date" name="data" id="data" required>
+        </div>
+        <div>
+            <label for="termes">Estic d'acord amb els termes i condicions</label>
+            <input type="checkbox" name="termes" id="termes" required>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Enviar">
+        </div>
+</body>
+</html>

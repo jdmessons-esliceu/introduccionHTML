@@ -1,0 +1,106 @@
+body{
+    background-color: #F9FAFB;
+}
+
+
+h1{
+    text-align: center;
+    color: #1A1A1A;
+}
+
+
+h2{
+    text-align: center;
+    color: #1A1A1A;
+}
+
+
+table{
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+
+
+th,td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+th{
+    background-color: #0B3C91;
+    color: #c8d3e7;
+}
+
+
+.hora{
+    background-color: #0B3C91;
+    color: #c8d3e7;
+}
+
+
+.pati{
+    background-color: #0B3C91;
+    color: #c8d3e7;
+}
+
+
+.serveis{
+    background-color: #265cad;
+}
+
+
+.programació{
+    background-color: #166cce;
+}
+
+
+.seguretat{
+    background-color: #1E88E5;
+}
+
+
+.ipo{
+    background-color: #42A5F5;
+}
+
+
+.inter{
+    background-color: #64B5F6;
+}
+
+
+.sostenibilitat{
+    background-color: #90CAF9;
+}
+
+
+.sox{
+    background-color: #BBDEFB;
+}
+
+
+.web{
+    background-color: #E3F2FD;
+}
+
+
+.llegenda{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+
+.llegenda li{
+    border: 1px solid black;
+    border-radius: 10px;
+}

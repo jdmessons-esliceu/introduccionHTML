@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+        <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="web_senzilla_1.html">Web Simple</a>
+                </li>
+                <li>
+                    <a href="/web_senzilla_2.html">Web simple 2</a>
+                </li>
+                <li>
+                    <a href="/horari.html">Horari</a>
+                </li>
+                <li>
+                    <a href="/productes.html">Productes</a>
+                </li>
+                <li>
+                    <a href="/registre.html">Registre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Tablas en HTML</h1>
+        <h2>Horario</h2>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+            <tr>
+                <td class="hora">15:00-15:55</td>
+                <td rowspan="2" class="serveis">Serveis en xarxa</td>
+                <td rowspan="2" class="sox">SOX</td>
+                <td class="sostenibilitat">Sostenibilitat</td>
+                <td rowspan="3" class="web">Aplicacions WEB</td>
+                <td rowspan="2" class="web">Aplicacions WEB</td>
+            </tr>
+            <tr>
+                <td class="hora">15:55-16:50</td>
+                <td rowspan="2" class="seguretat">Seguretat</td>
+            </tr>
+            <tr>
+                <td class="hora">16:50-17:45</td>
+                <td class="seguretat">Seguretat</td>
+                <td class="serveis">Serveis en xarxa</td>
+                <td class="ipo">IPO 2</td>
+            </tr>
+            <tr>
+                <td class="hora">17:45-18:15</td>
+                <td colspan="5" class="pati">PATI</td>
+            </tr>
+            <tr>
+                <td class="hora">18:15-19:10</td>
+                <td class="seguretat">Seguretat</td>
+                <td class="serveis">Serveis en xarxa</td>
+                <td class="seguretat">Seguretat</td>
+                <td rowspan="3" class="serveis">Serveis en xarxa</td>
+                <td rowspan="3" class="sox">SOX</td>
+            </tr>
+            <tr>
+                <td class="hora">19:10-20:05</td>
+                <td rowspan="2" class="inter">Projece intermodular</td>
+                <td rowspan="2" class="programació">Programació</td>
+                <td rowspan="2" class="sox">SOX</td>
+            </tr>
+            <tr>
+                <td class="hora">20:05-21:00</td>
+            </tr>
+        </table>
+        <ul class="llegenda">
+            <li class="serveis">Serveis en xarxa: Pedro Serveto</li>
+            <li class="programació">Programació: Pedro Serveto</li>
+            <li class="seguretat">Seguretat: Pedro Jimenez</li>
+            <li class="ipo">IPO 2: Santi Bonillo</li>
+            <li class="inter">Projecte intermodular: Santi Bonillo</li>
+            <li class="sostenibilitat">Sostenibilitat: Santi Bonillo</li>
+            <li class="sox">SOX: Manuel Martinez</li>
+            <li class="web">Aplicacions web: Guillem Mateu</li>
+        </ul>
+    </section>
+</body>
+</html>
